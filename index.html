@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="SpaceX Dashboard">
+    <title>SpaceX's return</title>
+    <link rel="stylesheet" href="css/challenge3.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.css' rel='stylesheet' />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js"></script>
+   
+</head>
+
+<body >
+    <div class="header">
+        <h1 class="titel">I.T.S.</h1>
+        <h4>Interplanetary Transport System</h4>
+    </div>
+    <div class="grid-container">
+        <div class="infoblokken">
+            <div class="teksten">
+                <div class="tijd"> 
+                    <h3 class="groet" id="groet">Goedendag! het is </h3>
+                    <div class="klok" id="klok"></div>
+                </div>
+                <p class="infotekst" id="infotekst"> Welkom bij het Interplanetary Transport System! 
+                    <br>
+                    Hier vindt u alle informatie over de landing. Deze vindt over ongeveer 8 uur plaats.
+                    Hieronder ziet u het terrein waar geland gaat worden. Kijk uit voor rotsen!
+                    <br>
+                    Daaronder vindt de geografische ligging van de landingsplaats.
+                </p>
+                
+            </div>
+            <div class="dataset1" id="dataset1"> </div>
+        </div>
+        <div class="mapblok">
+             <mapbox class="map" id="map"></mapbox>
+        </div>
+    </div>
+<footer>   
+</footer>    
+<script type="text/javascript" src="scripts/challenge3.js"></script>
+
+
+</body>
+
+</html>
