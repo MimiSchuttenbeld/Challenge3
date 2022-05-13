@@ -1,0 +1,56 @@
+/*Standaard css*/
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) 
+   grotere teksten en grotere visualisaties */
+   @media only screen and (min-width: 600px) {
+    .grid-container{
+        font-size: 16px;
+    }
+
+}    
+
+/* Als pagina groter wordt tekst veranderen in volledige naam*/
+
+/* Medium devices (landscape tablets, 768px and up)  */
+@media only screen and (min-width: 768px) {
+ /* Nieuwe grid tablets,
+  naast elkaar */
+    .grid-container{
+        font-size: 17px;
+    }
+    .infoblokken {
+        flex-direction: row;
+    }
+    .dataset1{
+        min-height: 300px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up)  */
+@media only screen and (min-width: 992px) {
+ /* Meeschalen / extra element op de rij*/
+    .grid-container{
+        font-size: 18px;
+    }
+    .dataset1{
+        height: 400px;
+        margin-top: 0px;
+    }
+
+}
+
+/* Extra grote devices (large laptops and desktops, 1200px and up)  */
+@media only screen and (min-width: 1200px) {
+    .grid-container{
+        font-size: 18.5px;
+    }
+    .infoblokken{
+        margin-top: 0px;
+    }
+    .dataset1{
+        height: 450px;
+    }
+}
